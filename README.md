@@ -45,14 +45,6 @@
 
 ![](./images/nuxt3_vuetify3_menu.png)
 
-* app.vue （不要？）
-    ```
-    <template>
-        <NuxtLayout>
-            <NuxtPage />
-        </NuxtLayout>
-    </template>
-    ```
     
 * layouts/default.vue
     ```
@@ -71,7 +63,7 @@
     
 * components/AppHeader.vue
     * ヘッダーとドローワーメニューを定義
-
+        * ヘッダー、ドローワーメニューで変数drawerを共有するため、同一コンポーネントに実装。
 * components/AppFooter.vue 
     * フッター定義
         
