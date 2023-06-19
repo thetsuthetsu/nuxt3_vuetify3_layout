@@ -46,7 +46,9 @@
 ![](./images/nuxt3_vuetify3_menu.png)
 
     
-* layouts/default.vue
+* レイアウト定義
+    * layouts/default.vue
+
     ```
     <template>
     <v-app>
@@ -61,7 +63,8 @@
     </template>  
     ```
     
-* components/AppHeader.vue
+* ヘッダーコンポーネント
+    * components/AppHeader.vue
     * ヘッダーとドローワーメニューを定義
         * ヘッダー、ドローワーメニューで変数drawerを共有するため、同一コンポーネントに実装。
 
@@ -164,8 +167,8 @@
     </script>
     ```
     
-* components/AppFooter.vue 
-    * フッター定義
+* フッターコンポーネント
+    * components/AppFooter.vue 
 
     ```
     <template>
@@ -205,7 +208,9 @@
     ```
 
 
-* pages/index.vue
+* メインコンテンツ
+    * pages/index.vue
+
     ```
     <template>
         <div>
@@ -213,3 +218,8 @@
         </div>
     </template>
     ```    
+
+
+## CodeSandBoxへのリンク
+* [codesandbox:nuxt3-vuetify3-layout](https://codesandbox.io/p/sandbox/nuxt3-vuetify3-layout-72jwjc?embed=1)
+
