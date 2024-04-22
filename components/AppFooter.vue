@@ -1,5 +1,8 @@
 <template>
-  <v-footer class="bg-indigo-lighten-1 text-center d-flex flex-column">
+  <v-footer 
+    class="bg-indigo-lighten-1 text-center d-flex flex-column"
+    app
+  >
     <div>
       <v-btn
         v-for="icon in icons"
